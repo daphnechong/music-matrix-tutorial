@@ -19,7 +19,7 @@ and [Web Audio](http://webaudio.github.io/web-audio-api/) documentation open.
 
 * Create a temporary button on your page, and call `playSound` when the button is clicked. 
 
-* Inside the function, create a sound wave using `createOscillator`. You won’t be able to hear sound yet. ([documentation](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext.createOscillator))
+* Inside the function, create a sound wave using `createOscillator` and start it. You won’t be able to hear sound yet. ([documentation](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext.createOscillator))
 
 * Connect the oscillator out to your speakers, so that you can hear the sound when you click the button. It will only work once per page load for now.
 
@@ -31,11 +31,11 @@ and [Web Audio](http://webaudio.github.io/web-audio-api/) documentation open.
 
 * Change the volume so that it is loudest at 0.125 seconds, and then fades out. You may have to do this in phases. ([documentation](http://webaudio.github.io/web-audio-api/#the-audioparam-interface))
 
-* You may also hear some “clicking” at the start of the note. You can fix it by playing the note at very low volume at first, then increasing it.
+* You may also hear some “clicking” at the start or end of the note, when the audio wave is started or stopped. You can fix it by playing the note at very low volume at those times.
 
 ###Playing different notes
 
-* You can change the tone of the note by adjusting the frequency on the `OscillatorNode`. The frequency is defined in Hertz. You can look up a [list of notes](http://www.phy.mtu.edu/~suits/notefreqs.html) to find standard note frequencies.
+* Change the tone of the note by adjusting the frequency on the `OscillatorNode`. The frequency is defined in Hertz. You can look up a [list of notes](http://www.phy.mtu.edu/~suits/notefreqs.html) to find standard note frequencies.
 
 * Choose 16 different note frequencies, and add them to an array. You can select any notes you like!  I recommend sticking to a music scale of defined notes (e.g. a [major scale](http://www.musictheorysite.com/major-scales/list-of-all-major-scales) for a “happy” sound, minor scale for a “sad” sound, or [pentatonic scale](http://www.musictheorysite.com/pentatonic-scales) for harmonious sound) 
 
@@ -62,6 +62,6 @@ and [Web Audio](http://webaudio.github.io/web-audio-api/) documentation open.
 Feedback, improvements and pull requests are welcome. If you put your code on github, you can publish your matrix using [github pages](https://pages.github.com/). 
 
 ### About 
-This tutorial is available under the MIT licence. 
+This tutorial is available under the MIT licence.
 
-Created by [Daphne Chong](http://daphnechong.com) for Women Who Code "Fun with Javascript" meetup, July 2014. There is a [blog post](http://daphnechong.com/2014/06/18/creating-a-music-matrix/) about it, and the [source](https://github.com/daphnechong/music-matrix) of the [original matrix](http://daphnechong.github.io/music-matrix) is also available on github.
+Created by [Daphne Chong](http://daphnechong.com) ([@daphnechong](http://twitter.com/daphnechong)) for Women Who Code "Fun with Javascript" meetup, July 2014. There is a [blog post](http://daphnechong.com/2014/06/18/creating-a-music-matrix/) about it, and the [source](https://github.com/daphnechong/music-matrix) of the [original matrix](http://daphnechong.github.io/music-matrix) is also available on github.
