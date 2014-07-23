@@ -1,8 +1,7 @@
 #Web Audio API tutorial
-Created by [Daphne Chong](http://daphnechong.com) for Women Who Code "Fun with Javascript" meetup, July 2014
 
 ###Preparation
-* Fork this project on github to have the basic styles and markup.
+* Fork this project or download the `.html`, `.css` and `.js` files to have the basic styles and markup.
 
 * Have the [Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext) 
 and [Web Audio](http://webaudio.github.io/web-audio-api/) documentation open. 
@@ -16,7 +15,7 @@ and [Web Audio](http://webaudio.github.io/web-audio-api/) documentation open.
 * Ensure that it supports different browsers, and provides a message for the user if their browser doesn’t support the Web Audio API.
 
 ###Playing a sound
-* Create a function called `playSound()`
+* Create a function called `playSound()` 
 
 * Create a temporary button on your page, and call `playSound` when the button is clicked. 
 
@@ -60,4 +59,9 @@ and [Web Audio](http://webaudio.github.io/web-audio-api/) documentation open.
 * Remove the temporary button, and make the columns start playing on pageLoad.
 
 ### You're done!
-Feedback, improvements and pull requests are welcome. 
+Feedback, improvements and pull requests are welcome. If you put your code on github, you can publish your matrix using [github pages](https://pages.github.com/). 
+
+### About 
+This tutorial is available under the MIT licence. 
+
+Created by [Daphne Chong](http://daphnechong.com) for Women Who Code "Fun with Javascript" meetup, July 2014. There is a [blog post](http://daphnechong.com/2014/06/18/creating-a-music-matrix/) about it, and the [source](https://github.com/daphnechong/music-matrix) of the [original matrix](http://daphnechong.github.io/music-matrix) is also available on github.
