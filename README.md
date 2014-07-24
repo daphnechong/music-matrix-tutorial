@@ -1,12 +1,19 @@
 #Web Audio API tutorial
 
-###Preparation
+### Preparation & Prerequisites
+
+* You will be learning how to use the Web Audio API to build up [this matrix](http://daphnechong.github.io/music-matrix)!
+
+* This is an intermediate level tutorial that assumes you are familiar with programming, understand basic javascript syntax and can use (or look up how to use) jQuery. 
+
+* There is a [cheat sheet](https://docs.google.com/document/d/1vx-MoaODnN8y90Xh86fYrtDGyCOt-FzV59mavacu37E/edit?usp=sharing) available if you get stuck, which contains some of the Web Audio API code you'll need. 
+
 * Fork this project or download the `.html`, `.css` and `.js` files to have the basic styles and markup.
 
 * Have the [Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/AudioContext) 
 and [Web Audio](http://webaudio.github.io/web-audio-api/) documentation open. 
 
-* jQuery is already included on the page
+* jQuery is already included on the page for you
 
 ###To start
 
@@ -63,5 +70,6 @@ Feedback, improvements and pull requests are welcome. If you put your code on gi
 
 ### About 
 This tutorial is available under the MIT licence.
+
 
 Created by [Daphne Chong](http://daphnechong.com) ([@daphnechong](http://twitter.com/daphnechong)) for Women Who Code "Fun with Javascript" meetup, July 2014. There is a [blog post](http://daphnechong.com/2014/06/18/creating-a-music-matrix/) about it, and the [source](https://github.com/daphnechong/music-matrix) of the [original matrix](http://daphnechong.github.io/music-matrix) is also available on github.
